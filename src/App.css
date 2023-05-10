@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.wallet-div {
+  text-align: center;
+}
+
+.stylish-heading {
+  /* font-size: 48px; */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+}
+
+.action-btn {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background-color: #2d6ffd;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  margin-top: 30px;
+}
