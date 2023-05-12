@@ -231,12 +231,13 @@ export const Demo = () => {
 
   return (
     <div className="connect-div">
-      <h1 className="stylish-heading"> Account Abstraction with Banana SDK </h1>
+      <h1 className="stylish-heading"> Account Abstraction</h1>
+      <h2 className="stylish-heading"> Banana SDK with Rainbow Kit </h2>
       <div style={{width: '150px', margin: '0 auto'}}>
         <ConnectButton />
       </div>
       {getWalletActions()}
-      <h1 className="stylish-heading"> Output </h1>
+      <h4 className="stylish-heading"> Output </h4>
       <div className="output-div">
         <p>{output}</p>
       </div>
