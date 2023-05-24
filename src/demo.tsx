@@ -1,8 +1,3 @@
-// import { ConnectButton } from '@rainbow-me/rainbowkit';
-
-// export const Demo = () => {
-//   return <ConnectButton />;
-// };
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import "@rainbow-me/rainbowkit/styles.css";
 import { ethers } from "ethers";
